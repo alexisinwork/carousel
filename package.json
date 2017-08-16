@@ -1,0 +1,48 @@
+{
+  "name": "webpack-es6-sass-setup",
+  "version": "0.0.1",
+  "description": "A simple carousel with Webpack, ES6 and Sass",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "npm run build && node server.js",
+    "start:webpack": "./node_modules/.bin/webpack-dev-server --config webpack.config.js --port 3001 --hot --inline",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack --config webpack.config.js",
+    "eslint:fix": "./node_modules/.bin/eslint --fix src"
+  },
+  "author": "Oleksandr Kukhtin",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.21.0",
+    "es6-promise": "^3.0.2",
+    "eslint": "4.4.1",
+    "eslint-loader": "1.9.0",
+    "express": "^4.15.2",
+    "node-sass": "^3.3.3",
+    "nodemon": "^1.11.0",
+    "postcss-loader": "^0.7.0",
+    "sass-loader": "6.0.6",
+    "style-loader": "^0.13.0",
+    "stylelint-selector-bem-pattern": "^1.0.0",
+    "stylelint-webpack-plugin": "^0.2.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "keywords": [
+    "babel",
+    "boilerplate",
+    "es6",
+    "sass",
+    "starter-kit",
+    "workflow",
+    "webpack"
+  ],
+  "dependencies": {
+    "copy-webpack-plugin": "^4.0.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.30.1"
+  }
+}
