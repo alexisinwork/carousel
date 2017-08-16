@@ -1,4 +1,4 @@
-# webpack sample project
+# Simple Carousel
 
 Sample webpack project with ES6 and Sass. Also includes Sass linting setup with [stylelint](https://github.com/stylelint/stylelint) and [stylelint-selector-bem-pattern](https://github.com/davidtheclark/stylelint-selector-bem-pattern), to enforce BEM patterns for selectors.
 Also before start - webpack will check all js files, according to [eslint](https://github.com/eslint/eslint).
